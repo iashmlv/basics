@@ -26,7 +26,7 @@ public class CashbackHackServiceTest {
     @Test
     public void checkingZeroBoundary() {
         int actual = service.remain(0);
-        int expected = 0;
+        int expected = 1000;
 
         assertEquals(actual, expected);
     }
